@@ -51,7 +51,7 @@ const initState = {
   fourthDigit: 4,
   isNumberIncorrect: false,
   EnteredNumbers: new Array<EnteredNumber>(),
-  RandomNumber: 5374,
+  RandomNumber: getPuzzleNumber(),
   isGameOver: false,
   isShowRules: false,
 };
