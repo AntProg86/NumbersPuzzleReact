@@ -1,0 +1,165 @@
+$body-color: white;
+
+body{
+  background-color: $body-color;
+}
+
+.pageMainContainer{
+  display: block;
+  justify-content: center;
+  height: calc(97vh - var(--headerHeight));
+  //background: gray;
+}
+
+@media (max-width: 1199px) {
+	.button-media-toolbar-dg .dx-button-text {
+    display: none;
+  } 
+	.button-media-toolbar-dg .dx-icon {
+    margin-right: 0px !important;
+  }
+	.button-media-toolbar-dg .dx-button-content {
+		padding-left: 8px !important;
+		padding-right: 8px !important;
+	}
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.digitBoxContainer {
+  width: 370px;
+}
+
+.titleContainer {
+  width: 370px;
+}
+
+.infoContainer{
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rulesContainer{
+  //height: 290px;
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+//-------------забрать
+.hideContent{
+  display: none;
+}
+
+//--------------------------------text 
+.nowrap { white-space: nowrap; }
+.bold { font-weight: bold; }
+.fontSize_20px .dx-texteditor-container { font-size: 15px;}
+.textColorRed .dx-texteditor-input
+{ 
+  color: red;
+}
+
+//--------------------------------flex 
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexСontainer {
+  display: flex;
+  //background-color: yellow;
+}
+
+.background_color_yellow{
+  background-color: yellow;
+}
+
+//--------------------------------alignment
+//col
+.col_horizontal_center{ justify-content: center; }
+
+.horizontal_right{ justify-content: right; }
+.horizontal_left{ justify-content: left; }
+
+.col_horizontal_left{ text-align: left; }
+
+.col_vertically_center{ align-self: center; }
+
+//row
+.vertically_center{ align-items: center; }
+.horizontal_center{ justify-content: center; }
+
+//Container
+.con_vertically_center{ align-items: center; }
+.con_horizontal_center{ justify-content: center; }
+
+//--------------------------------height / width
+.height_100{ height: 100%; }
+.height_86{ height: 86%; }
+
+.width_0p{ width: 0%; }
+.width_10p{ width: 10%; }
+.width_20p{ width: 20%; }
+.width_30p{ width: 30%; }
+.width_40p{ width: 40%; }
+.width_50p{ width: 50%; }
+.width_70p{ width: 70%; }
+.width_90p{ width: 90%; }
+.width_100p{ width: 100%; }
+.width_70px{ width: 70px; }
+.width_105px{ width: '105px'; }
+
+//--------------------------------margin / padding
+.margin_0px{ margin: 0px; }
+.margin_right_5px{ margin-right: 5px; }
+.margin_right_8px{ margin-right: 8px; }
+.margin_right_14px{ margin-right: 14px; }
+.margin_right_20px{ margin-right: 20px; }
+.margin_right_26px{ padding-left: 26px; }
+.margin_top_2px{ margin-top: 2px; }
+.margin_top_3px{ margin-top: 3px; }
+.margin_top_5px{ margin-top: 5px; }
+.margin_top_8px{ margin-top: 8px; }
+.margin_top_10px{ margin-top: 10px; }
+.margin_top_12px{ margin-top: 12px; }
+.margin_top_15px{ margin-top: 15px; }
+.margin_top_16px{ margin-top: 16px; }
+.margin_top_20px{ margin-top: 20px; }
+.margin_top_30px{ margin-top: 30px; }
+.margin_top_1rem{ margin-top: 1rem }
+.margin_top_17px{ margin-top: 17px; }
+.margin_bottom_3px{ margin-bottom: 3px; }
+.margin_bottom_10px{ margin-bottom: 10px; }
+.margin_bottom_17px{ margin-bottom: 17px; }
+.margin_bottom_20px{ margin-bottom: 20px; }
+.margin_right_10px{ margin-right: 10px; }
+.margin_left_10px{ margin-left: 10px; }
+.margin_left_15px{ margin-left: 15px; }
+.margin_left_5px{ margin-left: 5px; }
+
+.padding_left_0px { padding-left: 0px !important; }
+.padding_left_15px_imp { padding-left: 15px !important; }
+.padding_left_5px { padding-left: 5px; }
+.padding_left_3px { padding-left: 3px; }
+.padding_left_10px { padding-left: 10px; }
+.padding_right_3px { padding-right: 3px; }
+.padding_right_4px { padding-right: 4px }
+.padding_right_5px { padding-right: 5px }
+.padding_right_10px { padding-right: 10px; }
+.padding_top_0px { padding-top: 0px !important; }
+.padding_top_5px { padding-top: 5px; }
+.padding_top_10px { padding-top: 10px; }
+.padding_bottom_3px { padding-bottom: 3px; }
+//-------------забрать--end
